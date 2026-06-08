@@ -1,0 +1,53 @@
+# Environment variables - NEVER commit these!
+.env
+.env.local
+.env.production
+*.env
+
+# Local credentials file - NEVER commit this!
+.credentials.local
+credentials.local
+*.credentials.local
+
+# Files with actual credentials (local development only)
+frontend/script.js
+frontend/admin.js
+MQTT_Secure_INO_V01/*.ino
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs
+logs
+*.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+dist/
+build/
+*.min.js
+*.min.css
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Sensitive data
+config/secrets.json
+credentials.json
